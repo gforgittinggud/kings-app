@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kings-app/static/css/main.7c691652.css",
+    "main.js": "/kings-app/static/js/main.1e4a6efd.js",
+    "static/js/453.26f6b542.chunk.js": "/kings-app/static/js/453.26f6b542.chunk.js",
+    "index.html": "/kings-app/index.html",
+    "main.7c691652.css.map": "/kings-app/static/css/main.7c691652.css.map",
+    "main.1e4a6efd.js.map": "/kings-app/static/js/main.1e4a6efd.js.map",
+    "453.26f6b542.chunk.js.map": "/kings-app/static/js/453.26f6b542.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c691652.css",
+    "static/js/main.1e4a6efd.js"
+  ]
+}
