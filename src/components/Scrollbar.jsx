@@ -35,7 +35,7 @@ function Scrollbar() {
       style={{
         height: "8px",
         width: "100%",
-        backgroundColor: "blue",
+        backgroundColor: "white",
         position: "fixed",
         top: "0",
         left: "0",
@@ -46,7 +46,8 @@ function Scrollbar() {
         className="progress-fill"
         style={{
           height: "100%",
-          backgroundColor: "green",
+          backgroundColor:
+            "radial-gradient(circle at -3.3% 48%, rgb(141, 146, 239) 0%, rgb(99, 229, 254) 90%);",
           width: `${scrollPercent}%`,
         }}
       ></div>
