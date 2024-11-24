@@ -97,6 +97,14 @@ nav li {
   background-color: #f4f7f6;
 }
 
+.progress-fill {
+  background: radial-gradient(
+    circle at -3.3% 48%,
+    rgb(141, 146, 239) 0%,
+    rgb(99, 229, 254) 90%
+  );
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   .App-header {

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../App.css";
 
 function Scrollbar() {
   //   return <>hello</>;
@@ -46,8 +47,6 @@ function Scrollbar() {
         className="progress-fill"
         style={{
           height: "100%",
-          backgroundColor:
-            "radial-gradient(circle at -3.3% 48%, rgb(141, 146, 239) 0%, rgb(99, 229, 254) 90%);",
           width: `${scrollPercent}%`,
         }}
       ></div>
