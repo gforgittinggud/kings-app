@@ -17,34 +17,58 @@ body {
   min-height: 100vh;
 }
 
+.App-footer {
+  width: 100%;
+  padding: 2rem 10rem;
+  background-color: #2a8db4; /* Marine-inspired color */
+  color: rgb(3, 3, 3);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  column-gap: 20rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.App-footer li {
+  color: #eef8fc;
+  list-style: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .App-header {
   position: fixed;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #003c58; /* Marine-inspired color */
-  color: white;
+  padding: 10px 10px 10px 10px;
+  background-color: #ffffff; /* Marine-inspired color */
+  color: rgb(3, 3, 3);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.App-header p {
+  margin-top: 15px;
+}
+
 .App-header a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
 .App-header a:hover {
-  color: #50b3a2; /* Light marine color */
+  color: #25b39b; /* Light marine color */
 }
 
 nav ul {
   display: flex;
+  padding-top: 10px;
   gap: 30px;
 }
 
@@ -57,12 +81,39 @@ nav li {
   padding: 40px 20px;
 }
 
+#section1 {
+  margin-top: 5rem;
+  background-color: #25b39b;
+  align-items: center;
+  justify-content: center;
+}
+
+#section2 {
+  padding: 5rem 12rem;
+}
+
+#section3 {
+  width: 40%;
+}
+
+#section4 {
+  width: 40%;
+}
+
+#section-container-3-4 {
+  column-gap: 5rem;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .section {
   background-color: white;
   padding: 60px 30px;
   margin: 20px 0;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
 }
 
 .section h2 {
@@ -75,26 +126,6 @@ nav li {
   font-size: 1.1rem;
   color: #555;
   line-height: 1.6;
-}
-
-.scrollbar {
-  /* Custom scrollbar styles */
-  width: 6px;
-  height: 100%;
-  background-color: #f4f7f6;
-}
-
-.scrollbar::-webkit-scrollbar {
-  width: 6px;
-}
-
-.scrollbar::-webkit-scrollbar-thumb {
-  background-color: #50b3a2;
-  border-radius: 10px;
-}
-
-.scrollbar::-webkit-scrollbar-track {
-  background-color: #f4f7f6;
 }
 
 .progress-fill {

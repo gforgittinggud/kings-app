@@ -4,7 +4,6 @@ import "../App.css";
 function Scrollbar() {
   //   return <>hello</>;
   const [scrollPercent, setScrollPercent] = useState(0);
-  console.log("Scrollbar rendered");
   useEffect(() => {
     const handleScroll = () => {
       const windowHeight = window.innerHeight;
@@ -13,13 +12,9 @@ function Scrollbar() {
 
       const scrollPercentage =
         (scrollY / (documentHeight - windowHeight)) * 100;
-      console.log(scrollPercentage);
-      console.log(
-        `scrollY: ${scrollY}, documentHeight: ${documentHeight}, windowHeight: ${windowHeight}`
-      );
+
       setScrollPercent(scrollPercentage);
     };
-    console.log("useEffect is running");
 
     window.addEventListener("scroll", handleScroll);
     handleScroll();
