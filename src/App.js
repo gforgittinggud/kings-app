@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import "./style-form.css";
 import Scrollbar from "./components/Scrollbar";
+import "./script.js";
+import axios from "axios";
 
 function App() {
   return (
@@ -147,7 +149,7 @@ function App() {
           <br />
           <br />
           <div id="contact-card">
-            <form id="contact-form" onSubmit="sendEmail()">
+            <form id="contact-form" onSubmit={(event) => sendEmail(event)}>
               <p className="name">
                 <input
                   name="name"
@@ -223,6 +225,42 @@ function App() {
       </section>
     </div>
   );
+}
+
+function sendEmail(e) {
+  e.preventDefault();
+
+  // console.log(token);
+  const submitted = document.getElementById("submitted");
+  if (submitted.textContent === "submitted") {
+    alert("You have already submitted the Form.");
+    return;
+  }
+  const msg = document.getElementById("error-message");
+  if (msg === null) {
+    msg.textContent = "";
+  }
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const text = document.getElementById("text").value;
+  if (!name || !email || !text) {
+    document.getElementById("error-message").textContent =
+      "All fields are required.";
+    return;
+  }
+  axios
+    .post(`https://servernode345345.site/send-email`, {
+      name: name,
+      email: email,
+      text: text,
+    })
+    .then((response) => {
+      alert("Form submitted successfully!");
+      document.getElementById("submitted").textContent = "submitted";
+    })
+    .catch((error) => {
+      alert("An issue occured on the server, Please try again.");
+    });
 }
 
 export default App;
