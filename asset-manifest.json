@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kings-app/static/css/main.7c691652.css",
-    "main.js": "/kings-app/static/js/main.c6c6e96e.js",
+    "main.css": "/kings-app/static/css/main.b23b91f7.css",
+    "main.js": "/kings-app/static/js/main.5cfabaef.js",
     "static/js/453.26f6b542.chunk.js": "/kings-app/static/js/453.26f6b542.chunk.js",
     "index.html": "/kings-app/index.html",
-    "main.7c691652.css.map": "/kings-app/static/css/main.7c691652.css.map",
-    "main.c6c6e96e.js.map": "/kings-app/static/js/main.c6c6e96e.js.map",
+    "main.b23b91f7.css.map": "/kings-app/static/css/main.b23b91f7.css.map",
+    "main.5cfabaef.js.map": "/kings-app/static/js/main.5cfabaef.js.map",
     "453.26f6b542.chunk.js.map": "/kings-app/static/js/453.26f6b542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c691652.css",
-    "static/js/main.c6c6e96e.js"
+    "static/css/main.b23b91f7.css",
+    "static/js/main.5cfabaef.js"
   ]
 }
