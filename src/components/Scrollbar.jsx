@@ -31,7 +31,7 @@ function Scrollbar() {
       style={{
         height: "8px",
         width: "100%",
-        backgroundColor: "white",
+        backgroundColor: "light grey",
         position: "fixed",
         top: "0",
         left: "0",
