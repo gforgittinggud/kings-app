@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kings-app/static/css/main.4a108d84.css",
-    "main.js": "/kings-app/static/js/main.1f38ed3a.js",
+    "main.css": "/kings-app/static/css/main.4e02d48c.css",
+    "main.js": "/kings-app/static/js/main.815f3319.js",
     "static/js/453.26f6b542.chunk.js": "/kings-app/static/js/453.26f6b542.chunk.js",
     "static/media/KS81.png": "/kings-app/static/media/KS81.7da4c8d42f0164d9cb98.png",
     "static/media/H200-Control-Head-1.png": "/kings-app/static/media/H200-Control-Head-1.5920a8385c0c120e4a79.png",
@@ -9,12 +9,12 @@
     "static/media/Title Background ECS-01.png": "/kings-app/static/media/Title Background ECS-01.f96aaea515c1876e7208.png",
     "static/media/KINGS-LOGO-TRANSPARENT.jpg": "/kings-app/static/media/KINGS-LOGO-TRANSPARENT.b8f9df952de84ca99556.jpg",
     "index.html": "/kings-app/index.html",
-    "main.4a108d84.css.map": "/kings-app/static/css/main.4a108d84.css.map",
-    "main.1f38ed3a.js.map": "/kings-app/static/js/main.1f38ed3a.js.map",
+    "main.4e02d48c.css.map": "/kings-app/static/css/main.4e02d48c.css.map",
+    "main.815f3319.js.map": "/kings-app/static/js/main.815f3319.js.map",
     "453.26f6b542.chunk.js.map": "/kings-app/static/js/453.26f6b542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a108d84.css",
-    "static/js/main.1f38ed3a.js"
+    "static/css/main.4e02d48c.css",
+    "static/js/main.815f3319.js"
   ]
 }
