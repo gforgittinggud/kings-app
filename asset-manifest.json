@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kings-app/static/css/main.a6eb0a45.css",
+    "main.css": "/kings-app/static/css/main.72959ad1.css",
     "main.js": "/kings-app/static/js/main.e8488c44.js",
     "static/js/453.26f6b542.chunk.js": "/kings-app/static/js/453.26f6b542.chunk.js",
     "static/media/KS81.png": "/kings-app/static/media/KS81.7da4c8d42f0164d9cb98.png",
@@ -9,12 +9,12 @@
     "static/media/Title Background ECS-01.png": "/kings-app/static/media/Title Background ECS-01.f96aaea515c1876e7208.png",
     "static/media/KINGS-LOGO-TRANSPARENT.jpg": "/kings-app/static/media/KINGS-LOGO-TRANSPARENT.b8f9df952de84ca99556.jpg",
     "index.html": "/kings-app/index.html",
-    "main.a6eb0a45.css.map": "/kings-app/static/css/main.a6eb0a45.css.map",
+    "main.72959ad1.css.map": "/kings-app/static/css/main.72959ad1.css.map",
     "main.e8488c44.js.map": "/kings-app/static/js/main.e8488c44.js.map",
     "453.26f6b542.chunk.js.map": "/kings-app/static/js/453.26f6b542.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6eb0a45.css",
+    "static/css/main.72959ad1.css",
     "static/js/main.e8488c44.js"
   ]
 }
