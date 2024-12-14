@@ -245,7 +245,7 @@ function App() {
       </div>
 
       <section className="App-footer">
-        <div>
+        <div id="App-footer-enquiries-container">
           <div>
             <h2>
               <u className="text-footer">General Enquiries: </u>
@@ -297,7 +297,48 @@ function App() {
                 &nbsp;&nbsp;+65 8201 4028
               </li>
             </ul>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h2>
+              <u className="text-footer">Address: </u>
+            </h2>
+            <ul>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-geo-alt"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg>
+                &nbsp;&nbsp;13 Buroh St, 2nd Mezzanine Floor
+              </li>{" "}
+              <li>
+                {" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-map"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"
+                  />
+                </svg>
+                &nbsp;&nbsp;Singapore 627551
+              </li>
+            </ul>
           </div>
+
           <br />
           <br />
           <br />
@@ -364,7 +405,6 @@ function App() {
             </ul>
           </div>
         </div>
-
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16164.475010984108!2d103.6994762!3d1.3124211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da056c0c27146f%3A0x7d2023550a5d685e!2sKINGS%20CM%20PTE%20LTD!5e1!3m2!1sen!2ssg!4v1732456331307!5m2!1sen!2ssg"
