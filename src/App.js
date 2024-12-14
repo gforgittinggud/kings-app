@@ -22,7 +22,6 @@ function App() {
                 />
               </a>
             </li>
-            <h2 className="text-header">KINGS CM PTE LTD</h2>
             <a
               id="header-contact-us"
               className="text-header"
@@ -44,7 +43,7 @@ function App() {
         <section id="section2" className="section">
           <h2>About Us</h2>
           <p>
-            About Us We are a leading marine engineering company in Singapore
+            Kings CM is a leading marine engineering company in Singapore
             specializing in engine propulsion control systems and steering gear
             systems. Since our establishment in 2017, we have been dedicated to
             delivering innovative solutions tailored to the needs of the
