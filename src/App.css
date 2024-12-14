@@ -1,4 +1,8 @@
-/* Reset some default styling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Adjust this to the height of your fixed navbar */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -105,7 +109,7 @@ nav li {
   background-color: #25b39b;
   align-items: center;
   justify-content: center;
-  background-image: url("./assets/Steering\ Gear\ System/SGS.jpg");
+  background-image: url("./assets/SGS.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 85vh;
@@ -125,9 +129,11 @@ nav li {
 
 #section3 {
   width: 40%;
+  align-items: center;
 }
 
 #section4 {
+  align-items: center;
   width: 40%;
 }
 
@@ -165,6 +171,16 @@ nav li {
     rgb(141, 146, 239) 0%,
     rgb(99, 229, 254) 90%
   );
+}
+
+iframe {
+  border: none;
+}
+
+@media (max-width: 1800px) {
+  .iframe-pdf {
+    display: none;
+  }
 }
 
 /* Mobile Styles */
