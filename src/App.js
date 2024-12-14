@@ -13,7 +13,7 @@ function App() {
         <nav>
           <ul>
             <li>
-              <a href="#/">
+              <a href="#section1">
                 <img
                   src={require("./assets/KINGS-LOGO-TRANSPARENT.jpg")}
                   width="128px"
@@ -23,9 +23,13 @@ function App() {
               </a>
             </li>
             <h2 className="text-header">KINGS CM PTE LTD</h2>
-            <li>
-              <a href="#contact-us">Contact Us</a>
-            </li>
+            <a
+              id="header-contact-us"
+              className="text-header"
+              href="#contact-us"
+            >
+              Contact Us
+            </a>
           </ul>
         </nav>
       </header>

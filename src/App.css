@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px; /* Adjust this to the height of your fixed navbar */
+  scroll-padding-top: 90px; /* Adjust this to the height of your fixed navbar */
 }
 
 * {
@@ -79,7 +79,6 @@ body {
   color: rgb(0, 0, 0);
   text-decoration: none;
   /* font-weight: bold; */
-  text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 1rem;
   transition: color 0.3s ease;
@@ -141,6 +140,10 @@ nav li {
   column-gap: 5rem;
   justify-content: center;
   flex-direction: row;
+}
+
+#header-contact-us {
+  padding-top: 12.5px;
 }
 
 .section {
