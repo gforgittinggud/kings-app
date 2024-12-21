@@ -70,6 +70,16 @@ function App() {
             dedication.
           </p>
         </section>
+
+        <div id="img-formatter-section-3-4">
+          <h1>Products</h1>
+          <img
+            src={require("./assets/kc200-h200-removed.png")}
+            alt="KC200-A200-SET"
+            height="75%%"
+            width={"35%"}
+          />{" "}
+        </div>
         <section id="section-container-3-4" className="section">
           <section id="section3" className="section">
             <h2>Steering Gear System</h2>
@@ -92,7 +102,6 @@ function App() {
               Alarm Fault Systems
               <br />
               <br />
-              <h1>View the brochure below!</h1>
               <br />
               <a
                 href="https://drive.google.com/file/d/1r9aUhvRCCizEJ1m_zA2ZfmHLP10tnkfD/view?usp=sharing"
@@ -109,27 +118,11 @@ function App() {
                   cursor: "pointer",
                 }}
               >
-                Open PDF Externally
+                View brochure
               </a>
               <br />
               <br />
-              {/* <iframe
-                className="iframe-pdf"
-                src={require("./assets/KINGS Steering Brochure.pdf#page=4")}
-                width="100%"
-                height="820px"
-              ></iframe> */}
-              <br />
-              <br />
             </p>
-            <div id="img-formatter-section-3-4">
-              <img
-                src={require("./assets/KS81.png")}
-                alt="KS81 SGS"
-                height="400rem"
-                width={"500rem"}
-              />{" "}
-            </div>
           </section>
           <section id="section4" className="section">
             <h2>Engine Control System</h2>
@@ -137,7 +130,7 @@ function App() {
               Up to 4 Stations
               <br />
               <br />
-              Mechanical &/or Electric actuator
+              Mechanical and/or Electric actuator
               <br />
               <br />
               Simple and easy to use actuator adjustment
@@ -152,7 +145,6 @@ function App() {
               ABS Product Design Approval
               <br />
               <br />
-              <h1>View the brochure below!</h1>
               <br />
               <a
                 href="https://drive.google.com/file/d/1wqSCH_TGhMYYKmRmI3XCyljYcf5xrFQF/view?usp=sharing"
@@ -169,27 +161,11 @@ function App() {
                   cursor: "pointer",
                 }}
               >
-                Open PDF Externally
+                View brochure
               </a>
-              <br />
-              <br />
-              {/* <iframe
-                className="iframe-pdf"
-                src={require("./assets/KC200 Brochure 4.5.pdf#page=4")}
-                width="100%"
-                height="820px"
-              ></iframe> */}
             </p>
             <br />
             <br />
-            <div id="img-formatter-section-3-4">
-              <img
-                src={require("./assets/H200-Control-Head-1.png")}
-                alt="H200 Control Head"
-                height="400rem"
-                width={"300rem"}
-              />{" "}
-            </div>
           </section>
         </section>
 
@@ -278,7 +254,7 @@ function App() {
                   <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
                   <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
                 </svg>
-                &nbsp;&nbsp;jeromelim@kings.sg
+                &nbsp;&nbsp;Jeromelim@kings.sg
               </li>
               <li>
                 <svg
@@ -305,7 +281,7 @@ function App() {
               <u className="text-footer">Address: </u>
             </h2>
             <ul>
-              <li>
+              <li id="text-footer-address">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -317,31 +293,14 @@ function App() {
                   <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
                   <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
                 </svg>
-                &nbsp;&nbsp;13 Buroh St, 2nd Mezzanine Floor
+                &nbsp;&nbsp;13 Buroh St
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2nd Mezzanine Floor
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singapore 627551
               </li>{" "}
-              <li>
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-map"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M15.817.113A.5.5 0 0 1 16 .5v14a.5.5 0 0 1-.402.49l-5 1a.5.5 0 0 1-.196 0L5.5 15.01l-4.902.98A.5.5 0 0 1 0 15.5v-14a.5.5 0 0 1 .402-.49l5-1a.5.5 0 0 1 .196 0L10.5.99l4.902-.98a.5.5 0 0 1 .415.103M10 1.91l-4-.8v12.98l4 .8zm1 12.98 4-.8V1.11l-4 .8zm-6-.8V1.11l-4 .8v12.98z"
-                  />
-                </svg>
-                &nbsp;&nbsp;Singapore 627551
-              </li>
             </ul>
           </div>
-
-          <br />
-          <br />
-          <br />
           <div>
             <h2>
               <u className="text-footer"> Engineering Enquiries:</u>{" "}
@@ -375,7 +334,7 @@ function App() {
                   <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
                   <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
                 </svg>
-                &nbsp;&nbsp;terry@kings.sg
+                &nbsp;&nbsp;Terry@kings.sg
               </li>
               <li>
                 {" "}
@@ -413,6 +372,7 @@ function App() {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            id="iframe-map"
           ></iframe>
         </div>
       </section>
