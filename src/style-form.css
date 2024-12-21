@@ -88,7 +88,7 @@ textarea {
 
 .contact-us {
   font-size: 1.5em;
-  padding-left: 1rem;
+  padding-left: 15rem;
 }
 
 #contact-card {
@@ -98,5 +98,8 @@ textarea {
 @media (max-width: 768px) {
   #contact-card {
     margin: 0 5rem;
+  }
+  .contact-us {
+    padding-left: 3rem;
   }
 }
