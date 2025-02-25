@@ -4,9 +4,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      # - name: Install NodeJS
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 18
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Run tests
-        uses: npm test
+        run: npm test
