@@ -1,0 +1,32 @@
+name: Test Project
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: "30 4 * * *"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gete code
+        uses: actions/checkout@v3
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install deps
+        run: npm ci
+      - name: Run tests
+        run: npm test
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Gete code
+  #       uses: actions/checkout@v3
+  #     - name: Install NodeJS
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 18
+  #     - name: Install deps
+  #       run: npm ci
+  #     - name: Build project and deploy
+  #       run: npm run deploy
