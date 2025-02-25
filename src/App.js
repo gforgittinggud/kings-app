@@ -1,7 +1,7 @@
-import axios from "axios";
 import React from "react";
+import axios from "axios";
+import Scrollbar from "./components/Scrollbar.jsx";
 import "./App.css";
-import Scrollbar from "./components/Scrollbar";
 import "./script.js";
 import "./style-form.css";
 
