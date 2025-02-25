@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "kings-app",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +23,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!axios)/'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
