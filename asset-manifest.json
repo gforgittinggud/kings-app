@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/kings-app/static/css/main.aa0ea75e.css",
-    "main.js": "/kings-app/static/js/main.c3effc85.js",
+    "main.js": "/kings-app/static/js/main.0f4b0537.js",
     "static/js/453.26f6b542.chunk.js": "/kings-app/static/js/453.26f6b542.chunk.js",
-    "static/media/kc200-h200-removed.png": "/kings-app/static/media/kc200-h200-removed.516895d25364d452adb4.png",
     "static/media/SGS.jpg": "/kings-app/static/media/SGS.fd8610629338f005f169.jpg",
     "static/media/Title Background ECS-01.png": "/kings-app/static/media/Title Background ECS-01.f96aaea515c1876e7208.png",
-    "static/media/KINGS-LOGO-TRANSPARENT.jpg": "/kings-app/static/media/KINGS-LOGO-TRANSPARENT.b8f9df952de84ca99556.jpg",
     "index.html": "/kings-app/index.html",
     "main.aa0ea75e.css.map": "/kings-app/static/css/main.aa0ea75e.css.map",
-    "main.c3effc85.js.map": "/kings-app/static/js/main.c3effc85.js.map",
+    "main.0f4b0537.js.map": "/kings-app/static/js/main.0f4b0537.js.map",
     "453.26f6b542.chunk.js.map": "/kings-app/static/js/453.26f6b542.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa0ea75e.css",
-    "static/js/main.c3effc85.js"
+    "static/js/main.0f4b0537.js"
   ]
 }
